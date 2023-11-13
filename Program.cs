@@ -48,9 +48,9 @@
                 case "tan":
                     result = Math.Tan(arg1);
                     break;
-                case "Atan":
-                    result = Math.Atan(arg1);
-                    break;
+                //case "Atan":
+                //    result = Math.Atan(arg1);
+                //    break;
 
                 default:
                     throw new ArgumentException($"Unknown function: {functionName}");
